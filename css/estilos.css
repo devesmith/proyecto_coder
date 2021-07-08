@@ -1,0 +1,247 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+/*BOTONES*/
+.btn {
+  border: none;
+  background: none;
+  border-bottom: 1px solid #ffff;
+  outline: none;
+  color: #333333;
+}
+
+.btn-primary {
+  color: #ffff;
+  border-radius: 50px;
+  background-color: #333333;
+  transition: background 0.5s ease-in-out;
+}
+
+.btn-primary a {
+  color: #ffff;
+}
+
+.btn-primary:hover {
+  color: #ffff;
+  border-radius: 50px;
+  background-color: #706c61;
+  transition: background 0.5s ease-in-out;
+}
+
+.btn-secondary {
+  color: #ffff;
+  border-radius: 50px;
+  background-color: #333333;
+  transition: background 0.5s ease-in-out;
+}
+
+.btn-secondary a {
+  color: #ffff;
+}
+
+.btn-secondary:hover {
+  color: #ffff;
+  border-radius: 50px;
+  background-color: #706c61;
+  transition: background 0.5s ease-in-out;
+}
+
+/*FIN BOTONES*/
+/*TEXTOS*/
+.titulos1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.titulos2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.titulos3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+/*TEXTOS*/
+/*COLORES*/
+.colorWhite {
+  color: #ffff;
+}
+
+.bgColorWhite {
+  background-color: #ffff;
+}
+
+.colorBlack {
+  color: #333333;
+}
+
+.bgColorBlack {
+  background-color: #333333;
+}
+
+.colorBrown {
+  background-color: #706c61;
+}
+
+.colorYellow {
+  color: #333333;
+  background-color: #e8e46e;
+}
+
+.nav-link:hover {
+  color: #ffc107;
+}
+
+/*FIN COLORES*/
+.skills {
+  padding-top: 20px;
+}
+
+.skills img {
+  width: 80px;
+  padding-bottom: 20px;
+}
+
+.skills h4 {
+  font-size: 1em;
+}
+
+/*PORTAFOLIO*/
+#portafolio {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+#portafolio .modal-content {
+  border-radius: 30px;
+}
+
+#portafolio .porta {
+  padding-top: 40px;
+}
+
+#portafolio .porta img {
+  border-radius: 30px;
+}
+
+#portafolio h3 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#portafolio a {
+  text-decoration: none;
+}
+
+/*FIN PORTAFOLIO*/
+/*SERVICIOS*/
+#servicios .servi {
+  padding-top: 40px;
+}
+
+#servicios p {
+  text-align: justify;
+}
+
+#servicios .servicio img {
+  width: 100px;
+  padding-bottom: 20px;
+}
+
+/*FIN SERVICIOS*/
+/*SOBRE MI*/
+#sobre_mi {
+  background-image: url(https://pa1.narvii.com/7247/bf22d37252a2f886baebfe67df9a6e5f359fb32br1-640-360_hq.gif);
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+#sobre_mi .sobreMi img {
+  width: 250px;
+  border: solid 9px #706c61;
+}
+
+#sobre_mi h2 {
+  padding-bottom: 40px;
+}
+
+#sobre_mi p {
+  text-align: justify;
+}
+
+/*FIN SOBRE MI*/
+/*CONTACTO*/
+#contacto .formula h2 {
+  padding-top: 10px;
+  text-align: center;
+  font-size: 3em;
+}
+
+#contacto .formula form p {
+  margin: 0;
+  padding: 1em;
+}
+
+#contacto .formula form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#contacto .formula form .block {
+  grid-column: 1/3;
+}
+
+#contacto .formula form button {
+  color: #706c61;
+  font-size: 1em;
+  padding: 10px 20px;
+  border-radius: 30px;
+  border: 1px solid #7868e6;
+  margin-top: 10px;
+  transition: all 0.5s;
+  background-color: #333333;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+#contacto .formula form button:hover {
+  color: #706c61;
+  background-color: #333333;
+  transition: all 0.5s;
+}
+
+#contacto .formula form button,
+#contacto .formula form input,
+#contacto .formula form textarea {
+  width: 100%;
+  padding: 1em;
+  border: none;
+  background: none;
+  border-bottom: 1px solid #edeef7;
+  outline: none;
+  color: #333333;
+}
+
+/*FIN CONTACTO*/
+footer {
+  background-color: #ffff;
+}
+
+footer .redes img {
+  width: 80px;
+  padding: 30px 0;
+}
+
+footer .modal-content {
+  border-radius: 30px;
+}

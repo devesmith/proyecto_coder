@@ -1,0 +1,219 @@
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+/*BOTONES*/
+.btn {
+  border: none;
+  background: none;
+  border-bottom: 1px solid $blanco;
+  outline: none;
+  color: $negro;
+}
+.btn-primary {
+  color: $blanco;
+  border-radius: 50px;
+  background-color: $negro;
+  transition: background 0.5s ease-in-out;
+  a {
+    color: $blanco;
+  }
+}
+.btn-primary:hover {
+  color: $blanco;
+  border-radius: 50px;
+  background-color: $cafe;
+  transition: background 0.5s ease-in-out;
+}
+.btn-secondary {
+  color: $blanco;
+  border-radius: 50px;
+  background-color: $negro;
+  transition: background 0.5s ease-in-out;
+  a {
+    color: $blanco;
+  }
+}
+.btn-secondary:hover {
+  color: $blanco;
+  border-radius: 50px;
+  background-color: $cafe;
+  transition: background 0.5s ease-in-out;
+}
+/*FIN BOTONES*/
+
+/*TEXTOS*/
+.titulos1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+}
+.titulos2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+}
+.titulos3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+}
+/*TEXTOS*/
+
+/*COLORES*/
+.colorWhite {
+  color: $blanco;
+}
+.bgColorWhite {
+  background-color: $blanco;
+}
+.colorBlack {
+  color: $negro;
+}
+.bgColorBlack {
+  background-color: $negro;
+}
+.colorBrown {
+  background-color: $cafe;
+}
+.colorYellow {
+  color: $negro;
+  background-color: $amarillo;
+}
+.nav-link:hover {
+  color: #ffc107;
+}
+/*FIN COLORES*/
+
+.skills {
+  padding-top: 20px;
+  img {
+    width: 80px;
+    padding-bottom: 20px;
+  }
+  h4 {
+    font-size: 1em;
+  }
+}
+
+/*PORTAFOLIO*/
+
+#portafolio {
+  padding-top: 60px;
+  padding-bottom: 40px;
+  .modal-content {
+    border-radius: 30px;
+  }
+  .porta {
+    padding-top: 40px;
+  }
+  .porta img {
+    border-radius: 30px;
+  }
+  h3 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  a {
+    text-decoration: none;
+  }
+}
+/*FIN PORTAFOLIO*/
+
+/*SERVICIOS*/
+
+#servicios {
+  .servi {
+    padding-top: 40px;
+  }
+  p {
+    text-align: justify;
+  }
+  .servicio img {
+    width: 100px;
+    padding-bottom: 20px;
+  }
+}
+/*FIN SERVICIOS*/
+
+/*SOBRE MI*/
+#sobre_mi {
+  background-image: url(https://pa1.narvii.com/7247/bf22d37252a2f886baebfe67df9a6e5f359fb32br1-640-360_hq.gif);
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  .sobreMi img {
+    width: 250px;
+    border: solid 9px #706c61;
+  }
+  h2 {
+    padding-bottom: 40px;
+  }
+  p {
+    text-align: justify;
+  }
+}
+/*FIN SOBRE MI*/
+
+/*CONTACTO*/
+
+#contacto {
+  .formula h2 {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 3em;
+  }
+  .formula form p {
+    margin: 0;
+    padding: 1em;
+  }
+  .formula form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .formula form .block {
+    grid-column: 1/3;
+  }
+  .formula form button {
+    color: #706c61;
+    font-size: 1em;
+
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: 1px solid#7868e6;
+    margin-top: 10px;
+    transition: all 0.5s;
+    background-color: $negro;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  .formula form button:hover {
+    color: #706c61;
+    background-color: $negro;
+    transition: all 0.5s;
+  }
+  .formula form button,
+  .formula form input,
+  .formula form textarea {
+    width: 100%;
+    padding: 1em;
+    border: none;
+    background: none;
+    border-bottom: 1px solid #edeef7;
+    outline: none;
+    color: $negro;
+  }
+}
+/*FIN CONTACTO*/
+
+footer {
+  background-color: $blanco;
+  .redes img {
+    width: 80px;
+    padding: 30px 0;
+  }
+  .modal-content {
+    border-radius: 30px;
+  }
+}
